@@ -8,6 +8,7 @@ const LoginScreen = () => {
     <div className="login-container">
       <Row gutter={16}>
         {/* Image Side */}
+        {/* imgs colms  */}
         <Col xs={24} sm={12}>
           <div className="image-container">
             <img src={LoginHero} alt="Login Image" />
