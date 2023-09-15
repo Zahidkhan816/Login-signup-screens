@@ -5,9 +5,9 @@ import Resetpaswrd from '../src/Components/ResetPasswrd/Resetpaswrd'
 function App() {
   return (
     <div>
-      <Loginscreen/>
-      <Register/>
-      <ForgetPassword/>
+      {/* <Loginscreen/> */}
+      {/* <Register/> */}
+      {/* <ForgetPassword/> */}
       <Resetpaswrd/>
     </div>
   );

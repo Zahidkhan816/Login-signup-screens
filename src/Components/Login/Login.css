@@ -1,11 +1,13 @@
-/* LoginScreen.css */
+/* Login.css */
+
 .login-container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start; /* Align items at the top */
   height: 100vh;
   background-color: #ffffff;
 }
+
 .image-container img {
   max-width: 100%;
   height: auto;
@@ -17,6 +19,7 @@
   border: none;
   padding: 20px;
   max-width: 400px;
+  margin-left: 20px; /* Add margin to separate the image and form */
 }
 
 .center-content {
@@ -35,15 +38,17 @@
   transition: background-color 0.3s;
   width: 100%;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
-.google-logo {
-  width: 24px;
-  height: 24px;
-  margin-right: 8px; /* Add spacing between logo and text */
+
+/* Updated styles for the button content */
+.button-content {
+  display: flex;
+  align-items: center;
 }
+
 .login-button {
   background-color: #1890ff;
   color: #fff;
@@ -54,9 +59,9 @@
   transition: background-color 0.3s;
   width: 100%;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 .button-text {
@@ -100,7 +105,6 @@
   font-weight: bold;
 }
 
-
 .image-col {
   display: flex;
   justify-content: center;
@@ -112,6 +116,8 @@
   text-align: center;
   margin-top: 20px; /* Adjust the margin as needed */
 }
+
+/* Added class for checkbox container */
 .checkbox-item {
   display: flex;
 }

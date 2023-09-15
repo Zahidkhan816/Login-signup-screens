@@ -1,17 +1,20 @@
-/* LoginScreen.css */
-.login-container {
+/* Register.css */
+
+/* Updated class names to match the component structure */
+.register-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
   background-color: #fff;
 }
-.image-container img {
+
+.register-image-container img {
   max-width: 100%;
   height: auto;
 }
 
-.login-form-container {
+.register-form-container {
   background-color: #fff;
   margin-top: 2rem;
   border-radius: 5px;
@@ -19,12 +22,12 @@
   max-width: 400px;
 }
 
-.center-content {
+.register-center-content {
   text-align: center;
   margin-bottom: 20px;
 }
 
-.google-button {
+.register-google-button {
   background-color: #ffffff;
   color: #000000;
   font-weight: bolder;
@@ -35,12 +38,18 @@
   transition: background-color 0.3s;
   width: 100%;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
-.login-button {
+/* Updated styles for the button content */
+.register-button-content {
+  display: flex;
+  align-items: center;
+}
+
+.register-button {
   background-color: #1890ff;
   color: #fff;
   border: none;
@@ -50,20 +59,20 @@
   transition: background-color 0.3s;
   width: 100%;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-.button-text {
   text-align: center;
 }
 
-.google-button:hover {
+.register-button-text {
+  text-align: center;
+}
+
+.register-google-button:hover {
   background-color: #40a9ff;
 }
 
-.login-form {
+.register-form {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -71,43 +80,43 @@
   margin: 0 auto;
 }
 
-.login-form-item {
-  margin-bottom: 5px; /* Increase spacing to 32px between form items */
-  border: 1px solid #858D9D;
+.register-form-item-small {
+  margin-bottom: 10px; /* Increase spacing to 32px between form items */
   width: 100%;
 }
 
 /* Styles for the divider */
-.divider {
+.register-divider {
   display: flex;
   align-items: center;
   margin: 5px 0;
 }
 
-.divider-line {
+.register-divider-line {
   flex-grow: 1;
   height: 1px;
   background-color: #ccc;
 }
 
-.divider-text {
+.register-divider-text {
   margin: 0 16px;
   color: #ccc;
   font-weight: bold;
 }
 
-
-.image-col {
+.register-image-col {
   display: flex;
   justify-content: center;
   align-items: flex-start;
 }
 
 /* Style the logo container */
-.logo-container {
+.register-logo-container {
   text-align: center;
   margin-top: 20px; /* Adjust the margin as needed */
 }
-.checkbox-item {
+
+/* Added class for checkbox container */
+.register-checkbox-item {
   display: flex;
 }
