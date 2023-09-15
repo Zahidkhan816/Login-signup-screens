@@ -1,9 +1,9 @@
 import React from 'react';
 import { Row, Col, Form, Input, Button } from 'antd';
-import LoginHero from '../Assets/Login.png';
-import googlelogo from '../Assets/Google.png';
-import logo from '../Assets/logo.png';
-
+import LoginHero from '../Login/Assets/Login.png';
+import googlelogo from '../Login/Assets/Google.png';
+import logo from '../Login/Assets/logo.png';
+import './Login.css'
 const LoginScreen = () => {
   return (
     <div className="login-container">
@@ -26,7 +26,7 @@ const LoginScreen = () => {
             </div>
             <Button type="primary" htmlType="submit" className="google-button">
               <div className="button-content">
-                <img src={googlelogo} alt="" srcSet="" className="google-logo" />
+                <img src={googlelogo} alt="" className="google-logo" />
                 <span className="button-text">Login with Google</span>
               </div>
             </Button>

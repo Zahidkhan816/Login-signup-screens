@@ -1,10 +1,9 @@
 import React from 'react';
 import { Row, Col, Form, Input, Button } from 'antd';
-import LoginHero from '../Assets/Login.png';
-import googlelogo from '../Assets/Google.png';
-import logo from '../Assets/logo.png';
-
-const LoginScreen = () => {
+import LoginHero from '../ResetPasswrd/Assets/Login.png';
+import logo from '../ResetPasswrd/Assets/logo.png';
+import './Resetpassword.css'
+const Resetpaswrd = () => {
     return (
         <div className="login-container">
             <Row gutter={32}>
@@ -54,4 +53,4 @@ const LoginScreen = () => {
     );
 };
 
-export default LoginScreen;
+export default Resetpaswrd;

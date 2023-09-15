@@ -1,10 +1,10 @@
 import React from 'react';
 import { Row, Col, Form, Input, Button, Checkbox } from 'antd';
-import LoginHero from '../Assets/Login.png';
-import googlelogo from '../Assets/Google.png';
-import logo from '../Assets/logo.png';
-
-const Resetpaswrd = () => {
+import LoginHero from '../Register/Assets/Login.png';
+import googlelogo from '../Register/Assets/Google.png';
+import logo from '../Register/Assets/logo.png';
+import './Register.css';
+const Register = () => {
     // Define the onFinish function to handle form submission
     const onFinish = (values) => {
         console.log('Received values:', values);
@@ -111,4 +111,4 @@ const Resetpaswrd = () => {
     );
 };
 
-export default Resetpaswrd;
+export default Register;

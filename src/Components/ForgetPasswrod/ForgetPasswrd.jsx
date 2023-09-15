@@ -1,12 +1,9 @@
 import React from 'react';
 import { Row, Col, Form, Input, Button } from 'antd';
-import LoginHero from '../Assets/Login.png';
-import googlelogo from '../Assets/Google.png';
-import logo from '../Assets/logo.png';
-import 'forgetPassword.css'
-import 'forgetPassword.css'
+import LoginHero from '../ForgetPasswrod/Assets/Login.png';
+import logo from '../ForgetPasswrod/Assets/logo.png';
 import './forgetPassword.css'
-const LoginScreen = () => {
+const ForgetPasswrd = () => {
   return (
     <div className="login-container">
       <Row gutter={32}>
@@ -24,7 +21,7 @@ const LoginScreen = () => {
             </div>
             <div className="center-content">
               <h3>Forgot Password</h3>
-              <p>Enter the email address you used when ..</p>
+              <p>Enter the email address you used when joined and we’ll send reset instructions to reset your password.</p>
             </div>
             <Form name="login-form" initialValues={{ remember: true }}>
               <label htmlFor="useName">Email</label>
@@ -52,4 +49,4 @@ const LoginScreen = () => {
   );
 };
 
-export default LoginScreen;
+export default ForgetPasswrd;
